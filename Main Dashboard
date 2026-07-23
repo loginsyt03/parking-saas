@@ -1,0 +1,52 @@
+<div class="min-h-screen bg-slate-50 p-4 md:p-8 font-sans">
+  <div class="max-w-md mx-auto bg-white rounded-2xl shadow-sm border border-slate-200 overflow-hidden">
+    
+    <div class="bg-indigo-600 p-6 text-white">
+      <div class="flex justify-between items-center">
+        <h1 class="text-xl font-bold">ParkSpace Manager</h1>
+        <span class="text-xs bg-indigo-500 px-2 py-1 rounded-full">Unit 402-B</span>
+      </div>
+      <p class="text-indigo-200 text-sm mt-1">Welcome back, Alex</p>
+    </div>
+
+    <div class="p-6 space-y-6">
+      
+      <div class="bg-slate-50 border border-slate-200 rounded-xl p-4">
+        <div class="flex justify-between items-start">
+          <div>
+            <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider">My Allocated Spot</span>
+            <h2 class="text-2xl font-bold text-slate-800 mt-1">Slot #P-112</h2>
+          </div>
+          <span class="bg-green-100 text-green-700 text-xs px-2.5 py-1 rounded-full font-medium">Occupied by You</span>
+        </div>
+        
+        <div class="mt-4 pt-4 border-t border-slate-200 flex items-center justify-between">
+          <div>
+            <p class="text-sm font-medium text-slate-700">Away Today? Share Slot</p>
+            <p class="text-xs text-slate-500">Allow neighbors to request usage</p>
+          </div>
+          <label class="relative inline-flex items-center cursor-pointer">
+            <input type="checkbox" class="sr-only peer" checked>
+            <div class="w-11 h-6 bg-slate-200 peer-focus:outline-none rounded-full peer peer-checked:after:translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-[2px] after:left-[2px] after:bg-white after:border-slate-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all peer-checked:bg-indigo-600"></div>
+          </label>
+        </div>
+      </div>
+
+      <div class="bg-amber-50 border border-amber-200 rounded-xl p-4">
+        <div class="flex items-center space-x-3">
+          <div class="bg-amber-100 p-3 rounded-lg text-amber-700">
+            🚨
+          </div>
+          <div>
+            <h3 class="text-sm font-bold text-amber-900">Is someone blocking you?</h3>
+            <p class="text-xs text-amber-700">Instantly notify the car owner via SMS.</p>
+          </div>
+        </div>
+        <button class="w-full mt-3 bg-amber-600 hover:bg-amber-700 text-white text-sm font-medium py-2.5 rounded-lg transition-colors shadow-sm">
+          Report Misparked Vehicle
+        </button>
+      </div>
+
+    </div>
+  </div>
+</div>
